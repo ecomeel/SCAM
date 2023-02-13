@@ -4,8 +4,33 @@ a {
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px;
+    box-shadow: 1px 1px gray;
+
+}
+a:hover {
+    color: brown;
+    background-color: #e6cccc;
+
+}
+
+a:active {
+    box-shadow: -1px -1px gray;
+
 }
 
 img {
     margin-bottom: 10px;
+}
+
+.aligner {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.btn, h1 {
+    text-align: center;
+}
+
+.main {
+    margin-top: 50vh;
 }
