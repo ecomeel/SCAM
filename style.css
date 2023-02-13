@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(90deg, #e8e9cb, #a5e8dab9);
+}
+
 a {
     text-decoration: none;
     font-size: 1.2em;
@@ -5,6 +9,7 @@ a {
     border-radius: 5px;
     padding: 5px;
     box-shadow: 1px 1px gray;
+    background: linear-gradient(45deg, #ea8e8e, #fae9bb)
 
 }
 a:hover {
@@ -20,17 +25,25 @@ a:active {
 
 img {
     margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
-.aligner {
-    width: 80%;
-    margin: 0px auto;
-}
-
-.btn, h1 {
+.btn, h1, p {
     text-align: center;
 }
 
 .main {
     margin-top: 50vh;
+}
+
+p {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #8a4b4b
+}
+
+.scam h1 {
+    text-decoration: underline;
+    letter-spacing: 5px;
 }
